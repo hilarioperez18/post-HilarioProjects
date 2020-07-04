@@ -1,0 +1,40 @@
+/*!
+ * Copyright 2019-2020 Hilario Projects
+ */
+body {
+  padding-top: 56px;
+}
+
+.pull-right {float: right!important}
+.category {
+	color: #fff;
+	background: #3FB9FF;
+	background-color: #3FB9FF;
+	border-color:#3FB9FF;
+	padding: 6px
+}
+.btn-cyan{
+	color:#3FB9FF
+}
+.btn-cyan:hover{
+	color:#fff;
+	background-color:#3FB9FF;
+	border-color:#3FB9FF
+}
+.btn-cyan.focus,.btn-cyan:focus{
+	box-shadow:0 0 0 .2rem rgba(38,143,255,.5)
+}
+.btn-cyan.disabled,.btn-cyan:disabled{
+	color:#fff;
+	background-color:#007bff;
+	border-color:#007bff
+}
+.btn-cyan:not(:disabled):not(.disabled)
+.active,.btn-cyan:not(:disabled):not(.disabled):active,.show>.btn-cyan.dropdown-toggle{
+	color:#fff;
+	background-color:#0062cc;border-color:#005cbf
+}
+.btn-cyan:not(:disabled):not(.disabled)
+.active:focus,.btn-cyan:not(:disabled):not(.disabled):active:focus,.show>.btn-cyan.dropdown-toggle:focus{
+	box-shadow:0 0 0 .2rem rgba(38,143,255,.5)
+}
